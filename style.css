@@ -30,7 +30,7 @@ h6 {
   text-align: center;
   color: #ffdab9;
   background-color: #ffdab9;
-  padding: 50px 10px 60px 10px;
+  padding: 3rem;
   background-image: url("https://www.foodiesfeed.com/wp-content/uploads/2020/04/feasting-on-fresh-and-healthy-vietnamese-countryside-food.jpg");
   background-repeat: no-repeat;
   background-size: 60%;
@@ -41,19 +41,19 @@ h6 {
   background-color: #ffdab9;
   color: black;
   display: inline-block;
-  padding: 5px 4px 5px 4px;
-  margin: 20px 20px 20px 20px;
+  padding: 0.2em 0.3em;
+  margin: 1em 1em;
 }
 
 .nav-link {
-  padding: 5px 5px;
-  margin: 8px 8px 8px 8px;
+  padding: 0.3em 0.3em;
+  margin: 1em 0.5em;
   color: black;
   background-color: #ffdab9;
 }
 
 .main {
-  max-width: 800px;
+  width: 45vw;
   margin: 0 auto;
-  padding: 20px;
+  padding: 1.5rem;
 }
