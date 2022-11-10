@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <div class="menu-bar" id="jump-to-the-start">
+    <div id="jump-to-the-start">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="heart"
             viewBox="0 0 16 16">
             <path fill-rule="evenodd"
@@ -40,50 +40,141 @@
         </article>
         <article id="best-of">
             <h2>Best Of</h2>
-            <input type="checkbox" name="toggle" id="toogle-nav">
-            <label for="toggle-nav">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="open"
+            <!--<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="open"
                     viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
                         d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
                 </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="close"
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class=".close"
                     viewBox="0 0 16 16">
                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
                     <path
                         d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
-                </svg>
-                <nav>
-                    <ul>
-                        <li><a class="list-item" href="#sushi">Sushi</a></li>
-                        <li><a class="list-item" href="#pizza">Pizza</a></li>
-                        <li><a class="list-item" href="#burger">Burger</a></li>
-                        <li><a class="list-item" href="#ramen">Ramen</a></li>
-                        <li><a class="list-item" href="#bakery">Bakery</a></li>
-                    </ul>
-                </nav>
+                </svg>-->
             </label>
-            <!--
-                    <li>Omoni</li>
-                    <li>Enzo</li>
-                    <li>Ki Kuriya</li>
-            -->
-            <!---
-                    <li>Mamida</li>
-                    <li>Salami Social Club</li>
-                -->
-            <!--
-                    <li>Burgermeister</li>
-                -->
+            <nav>
+                <ul class="dropdown">
+                    <li><a class="list-item" href="#sushi">Sushi</a></li>
+                    <li><a class="list-item" href="#pizza">Pizza</a></li>
+                    <li><a class="list-item" href="#burger">Burger</a></li>
+                    <li><a class="list-item" href="#ramen">Ramen</a></li>
+                    <li><a class="list-item" href="#bakery">Bakery</a></li>
+                </ul>
+            </nav>
+
+            <header id="sushi">
+                <h3>Sushi
+                </h3>
+            </header>
+            <div class="map-responsive">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9704.523063543686!2d13.4088892!3d52.5491595!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4cdcdc117d30d6ae!2zT01PTkkg7JikIOuqqCDri4g!5e0!3m2!1sde!2sde!4v1668114630390!5m2!1sde!2sde"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <section>
+                <h4>Omoni <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-geo" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z" />
+                    </svg></h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam voluptas, reiciendis minus
+                    nostrum
+                    laudantium, alias officiis nemo blanditiis, ad inventore qui cum sint labore quisquam tempore
+                    provident
+                    ipsa sed nisi!</p>
+            </section>
+            <section>
+                <div class="map-responsive">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38850.06892146099!2d13.370772714479914!3d52.51299891750221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84fd7c13d1641%3A0x7c996a4e34a3da8b!2sEnzo%20Sushi%20Bar!5e0!3m2!1sde!2sde!4v1668114944711!5m2!1sde!2sde"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <h4>Enzo <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-geo" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z" />
+                    </svg></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci est quod beatae, totam soluta
+                    facere quidem inventore explicabo. Cum, nostrum. Earum repellendus, laudantium accusantium excepturi
+                    nam voluptatibus tenetur impedit sit?</p>
+            </section>
+            <section>
+                <h4>Ki Kuriya <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-geo" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z" />
+                    </svg></h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi recusandae autem consequatur. Cumque,
+                    perspiciatis. Expedita inventore error autem nobis pariatur ut eum tempora assumenda eveniet quidem,
+                    cumque eligendi. Vero, assumenda.</p>
+            </section>
+            <header id="pizza">
+                <h3>Pizza</h3>
+            </header>
+            <section>
+                <h4>Mamida <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-geo" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z" />
+                    </svg></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo amet facere veritatis delectus
+                    quidem totam modi iste tempora, itaque vero fugiat nesciunt, laborum debitis ab eum. Hic quasi iure
+                    repellat.</p>
+                <h4>Salami Social Club <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-geo" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z" />
+                    </svg></h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, quisquam consequatur voluptatum unde
+                    nulla asperiores a eligendi facere maxime totam fuga saepe nam explicabo debitis minima enim. Odio,
+                    ipsam? Culpa.</p>
+            </section>
+            <header id="burger">
+                <h3>Burger</h3>
+            </header>
+            <section>
+                <h4>Burgermeister <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-geo" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z" />
+                    </svg></h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam maiores quo minima voluptatibus
+                    molestiae delectus, earum, amet mollitia dolorum est officia eligendi! Totam id sequi ullam
+                    aliquid, fugiat neque quae!</p>
+            </section>
+            <header id="ramen">
+                <h3>Ramen</h3>
+            </header>
+            <section>
+                <h4>Takumi9 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-geo" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z" />
+                    </svg></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora earum ducimus facilis repudiandae
+                    sequi commodi mollitia, unde aliquid dicta at vel quod rem consectetur necessitatibus fugiat ullam,
+                    sit eum dolor.</p>
+            </section>
+            <header id="bakery">
+                <h3>Bakery</h3>
+            </header>
+            <section>
+                <h4>Princess Cheescake <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-geo" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z" />
+                    </svg></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quod saepe modi unde explicabo quas
+                    recusandae ex aliquam libero doloremque? Hic fuga doloremque provident itaque est aut modi maxime
+                    assumenda.</p>
+            </section>
         </article>
         <article id="honorary-mentions">
             <h2>Honorary Mentions</h2>
             <section>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+
             </section>
         </article>
         <a href="#jump-to-the-start">
