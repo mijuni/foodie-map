@@ -5,6 +5,10 @@
   font-family: "Lato", sans-serif;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   margin: 0;
   line-height: 1.5;
@@ -27,22 +31,32 @@ h6 {
 /* Specific Styling */
 
 .begin {
+  margin-top: 1rem;
   text-align: center;
   color: #ffdab9;
-  background-color: #ffdab9;
-  padding: 3rem;
+  padding: 10rem;
   background-image: url("https://www.foodiesfeed.com/wp-content/uploads/2020/04/feasting-on-fresh-and-healthy-vietnamese-countryside-food.jpg");
   background-repeat: no-repeat;
-  background-size: 60%;
+  background-size: 100%;
   background-position: 50%;
 }
 
 .intro-sentence {
   background-color: #ffdab9;
   color: black;
-  display: inline-block;
+  /* display: inline-block; */
   padding: 0.2em 0.3em;
   margin: 1em 1em;
+}
+
+.heart {
+  margin: 1.2rem 1rem 0 0.6rem;
+}
+
+.navigation {
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
 }
 
 .nav-link {
@@ -56,4 +70,26 @@ h6 {
   width: 45vw;
   margin: 0 auto;
   padding: 1.5rem;
+}
+
+.arrow {
+  color: black;
+  text-align: center;
+}
+
+.food-bar {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.list-item {
+  color: black;
+  text-decoration: none;
+  line-height: 1.8;
+}
+
+#toggle-nav {
 }
