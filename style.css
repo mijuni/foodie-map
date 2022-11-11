@@ -76,6 +76,10 @@ h6 {
   padding: 1.5rem;
 }
 
+.nav-bar {
+  display: none;
+}
+
 .dropdown {
   list-style: none;
   padding-left: 0;
@@ -86,6 +90,26 @@ h6 {
   color: black;
   text-decoration: none;
   line-height: 1.8;
+}
+
+#toggle-nav {
+  _all: unset;
+}
+
+#toggle-nav:checked ~ .nav-bar {
+  display: block;
+}
+
+.close {
+  display: none;
+}
+
+#toggle-nav:checked + label > .open {
+  display: none;
+}
+
+#toggle-nav:checked + label > .close {
+  display: inline;
 }
 
 .arrow {
