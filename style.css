@@ -112,6 +112,10 @@ h6 {
   display: inline;
 }
 
+/* .to-the-start {
+  position: sticky;
+} */
+
 .arrow {
   color: black;
 }
@@ -129,4 +133,15 @@ h6 {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.2rem;
 }
