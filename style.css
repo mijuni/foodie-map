@@ -93,7 +93,7 @@ h6 {
 }
 
 #toggle-nav {
-  _all: unset;
+  all: unset;
 }
 
 #toggle-nav:checked ~ .nav-bar {
